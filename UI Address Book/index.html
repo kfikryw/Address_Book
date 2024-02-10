@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container">
+        <h1 class="font">Address book</h1>
+        <input type="text" id="nameInput" placeholder="Enter name">
+        <input type="text" id="phoneInput" placeholder="Enter phone number">
+        <br><br>
+        <button id="addButton" class="button">Add Friend</button>
+        <br><br>
+        <input type="text" id="deleteInput" placeholder="Enter name to delete">
+        <br><br>
+        <button id="deleteButton" class="button">Delete Friend</button>
+        <br><br>
+        <input type="text" id="updateNameInput" placeholder="Enter name to update">
+        <input type="text" id="updatePhoneInput" placeholder="Enter new phone number">
+        <br><br>
+        <button id="updateButton" class="button">Update Phone Number</button>
+        <br><br>
+        <h2 class="font">Friend List</h2>
+        <div id="friendList" class="display"></div>
+        <script src="main.js" type="module"></script>
+        <script src="function.js" type="module"></script>
+    </div>
+</body>
+</html>
