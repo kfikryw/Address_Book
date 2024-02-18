@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.yellow_Box{
+    background-color: yellow;
+    height: 200px;
+    width: 150px;
+    float: left;
+}
+.green_Box{
+    background-color: greenyellow;
+    width: 250px;
+    height: 100px;
+    margin-left: 0px;
+    ;
+}
+.blue_Box{
+    background-color: blue;
+    width: 250px;
+    height: 100px;
+    margin-left: -250px;
+    margin-top: 100px;
+}

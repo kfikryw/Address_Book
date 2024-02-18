@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+.yellow_set{
+    background-color: yellow ;
+    height: 100px;
+    width: 100px;
+}
+
+.green_set{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    top: 600;
+    left: 600;
+}
+.blue_container{
+    background-color: blue;
+    padding: 10px;
+}
+.blue_set{
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+.orange_set{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+}
+.black_set{
+    background-color: black ;
+    height: 100px;
+    width: 100px;
+}
+.show_more,
+.sliding{
+    cursor: pointer;
+}

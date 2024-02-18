@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="yellow_set" id="yellow"></div>
+        <div class="green_set" id="green"></div>
+        <div class="blue_container" id="container">
+            <div class="blue_set"></div>
+            <div class="blue_set"></div>
+            <div class="blue_set"></div>
+            <div class="blue_set"></div>
+            <div class="blue_set"></div>
+        </div>
+        <div class="show_more" id="showMore">Show More</div>
+        <div class="orange_set" id="orange"></div>
+        <div class="sliding" id="slide">Slide</div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("#orange").click(function(){
+                for(let i = 0;i<5;i++){
+                    $("#yellow").clone().appendTo("#container");
+                }
+            })
+            $("#green").click(function(){
+                $(this).toggleClass("black_set");
+            })
+            $("#showMore").click(function(){
+                $("#container").toggle();
+            })
+            $("#slide").click(function(){
+                $("#container").slideToggle();
+            })
+        })
+    </script>
+    
+</body>
+</html>
